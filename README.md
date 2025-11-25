@@ -46,4 +46,5 @@ Basic Layout:
 #home
 
 
-This is my personal portfoilo. Silvery colors are framed around 
+This is my personal portfoilo. Silvery colors are framed around dark blues for contrast and ease of view. Footer has a
+back to top function in case user needs to scroll lower
