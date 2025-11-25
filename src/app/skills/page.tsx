@@ -8,26 +8,26 @@ type SkillQualities = {
 
 function SCard({ name, value }: SkillQualities) {
   return (
-    <div className="w-full flex items-center gap-6 py-4">
-      {/* bigger, bold label */}
-      <div className="w-56 text-black font-bold text-lg">{name}</div>
+    <div className="w-full flex flex-col sm:flex-row items-start sm:items-center gap-4 py-4">
+  {/* Skill name */}
+  <div className="text-black font-bold text-lg sm:w-56 w-full">{name}</div>
 
-      {/* larger progress bar */}
-      <div className="flex-1">
-        <div className="w-full bg-gray-200 rounded-full h-6 overflow-hidden">
-          <div
-            className="h-6 rounded-full flex items-center justify-center text-sm font-semibold text-white bg-[#3a3d58]"
-            style={{ width: `${value}%` }}
-            role="progressbar"
-            aria-valuenow={value}
-            aria-valuemin={0}
-            aria-valuemax={100}
-          >
-            {value >= 15 ? `${value}%` : null}
-          </div>
-        </div>
+  {/* Progress bar */}
+  <div className="w-full sm:flex-1">
+    <div className="w-full bg-gray-200 rounded-full h-6 overflow-hidden">
+      <div
+        className="h-6 rounded-full flex items-center justify-center text-sm font-semibold text-white bg-[#3a3d58]"
+        style={{ width: `${value}%` }}
+        role="progressbar"
+        aria-valuenow={value}
+        aria-valuemin={0}
+        aria-valuemax={100}
+      >
+        {value >= 15 ? `${value}%` : null}
       </div>
     </div>
+  </div>
+</div>
   )
 }
 
