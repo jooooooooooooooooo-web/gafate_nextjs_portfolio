@@ -13,20 +13,20 @@ const RootHeader = ()=>{
     ]
 
     return <div>
-        <div className="bg-[#1c1c2d] flex p-20 justify-between items-center text-white font-bold">
-            <h1>Jopfel Gafate</h1>
-            <nav>
-                {links.map(l => (
-                  <Link
-                    key={l.href}
-                    href={l.href}
-                    className={`ml-4 ${pathname === l.href ? "text-black bg-[#a8b2d1] px-3 py-1 rounded" : "text-white"}`}
-                  >
-                    {l.label}
-                  </Link>
-                ))}
-            </nav>
-        </div>
+        <div className="bg-[#1c1c2d] text-white font-bold p-10 flex flex-col items-center space-y-6">
+  <h1 className="text-2xl">Jopfel Gafate</h1>
+  <nav className="w-full flex justify-center space-x-6">
+    {links.map(l => (
+      <Link
+        key={l.href}
+        href={l.href}
+        className={`px-3 py-1 rounded ${pathname === l.href ? "bg-[#a8b2d1] text-black" : "text-white"}`}
+      >
+        {l.label}
+      </Link>
+    ))}
+  </nav>
+</div>
     </div>
 
 }
