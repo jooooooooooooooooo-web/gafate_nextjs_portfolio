@@ -15,12 +15,12 @@ export default function Projects() {
           </h2>
 
           <div className="text-center gap-6 items-center">
-            <div className="relative w-full h-150 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/pc1.jpg"
                 alt="PC build 1"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
 
@@ -50,12 +50,12 @@ export default function Projects() {
           </h2>
 
           <div className="flex justify-center">
-            <div className="relative w-full h-100 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/fu1.png"
                 alt="start screen"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -65,12 +65,12 @@ export default function Projects() {
             but I was able to make a sold approximation
           </p>
           <div className="flex justify-center">
-            <div className="relative w-300 h-100 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/fu2.png"
                 alt="game screen"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -80,12 +80,12 @@ export default function Projects() {
             is the winner
           </p>
           <div className="flex justify-center">
-            <div className="relative w-300 h-200 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/fu3.png"
                 alt="gameplay"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -95,12 +95,12 @@ export default function Projects() {
             approximation to the real thing, for a first attempt it is more than adequate
           </p>
           <div className="flex justify-center">
-            <div className="relative w-300 h-100 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/fu4.png"
                 alt="gameplay"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -115,12 +115,12 @@ export default function Projects() {
           </h2>
 
           <div className="flex justify-center">
-            <div className="relative w-full h-125 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/turtle1.png"
                 alt="Turtle race 1"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -130,12 +130,12 @@ export default function Projects() {
             the game, such as using a speed boost or making sure you don't slip on the wet parts of the track
           </p>
           <div className="flex justify-center">
-            <div className="relative w-full h-125 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/turtle3.png"
                 alt="Turtle race 1"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -144,12 +144,12 @@ export default function Projects() {
             game was essentially one long main function, while this one dedicates different activities to different functions
           </p>
           <div className="flex justify-center">
-            <div className="relative w-full h-125 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/turtle4.png"
                 alt="Turtle race 1"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
@@ -159,12 +159,12 @@ export default function Projects() {
             difficulty was making sure it was wide enough to even get the power up
           </p>
           <div className="flex justify-center">
-            <div className="relative w-full h-125 rounded-md overflow-hidden bg-gray-100">
+            <div className="relative w-full max-w-md h-64 sm:h-80 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/turtle5.png"
                 alt="Turtle race 1"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-contain sm:object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>
