@@ -1,3 +1,6 @@
+//Implements the same special card used in skills to a greater degree. Each project is sectioned off with their pictures
+//for readability
+
 import Image from "next/image"
 
 export default function Projects() {
@@ -25,15 +28,6 @@ export default function Projects() {
               <Image
                 src="/pc2.jpg"
                 alt="PC build 2"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
-
-            <div className="relative w-full h-64 rounded-md overflow-hidden bg-gray-100">
-              <Image
-                src="/pc3.jpg"
-                alt="PC build 3"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
