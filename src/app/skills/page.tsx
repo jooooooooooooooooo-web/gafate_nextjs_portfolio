@@ -1,3 +1,6 @@
+//Implements the same special card used in skills to a greater degree. Each project is sectioned off with their pictures
+//for readability
+
 type SkillQualities = {
   name: string
   value: number
@@ -14,13 +17,13 @@ function SCard({ name, value }: SkillQualities) {
         <div className="w-full bg-gray-200 rounded-full h-6 overflow-hidden">
           <div
             className="h-6 rounded-full flex items-center justify-center text-sm font-semibold text-white bg-[#3a3d58]"
-            style={{ width: `lvl ${value}` }}
+            style={{ width: `${value}%` }}
             role="progressbar"
             aria-valuenow={value}
             aria-valuemin={0}
             aria-valuemax={100}
           >
-            {value >= 15 ? `lvl ${value}` : null}
+            {value >= 15 ? `${value}%` : null}
           </div>
         </div>
       </div>

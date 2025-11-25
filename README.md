@@ -41,14 +41,6 @@ it prevents the eyes from having to travel too far.
 
 Color theory was implemnted to use dark colors on the top and bottom, while the main information is framed in lighter blues and silvers
 
-Basic Layout:
-
-#home
-
-
-This is my personal portfoilo. Silvery colors are framed around dark blues for contrast and ease of view. Footer has a
-back to top function in case user needs to scroll lower
-
 Table of contents:
 #home/page.tsx - start screen, gives opening info
 #story/page.tsx - Gives detailed background on my history relating to technology
