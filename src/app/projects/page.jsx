@@ -5,9 +5,9 @@ import Image from "next/image"
 
 export default function Projects() {
   return (
-    <div className="w-full bg-[#e0e0e0] py-12">
+    <div className="bg-[#0e0e0e] h-[200vh] w-full text-white content">
       <div className="max-w-4xl mx-auto px-6">
-        <h1 className="text-8xl font-bold text-center text-black mb-26">Projects</h1>
+        <h1 className="text-7xl font-bold text-center text-black mb-26">Projects</h1>
 
         <div className="bg-[#a8b2d1] rounded-lg shadow-sm p-8">
           <h2 className="text-2xl font-bold text-center text-black mb-6">
@@ -24,14 +24,6 @@ export default function Projects() {
               />
             </div>
 
-            <div className="relative w-full h-64 rounded-md overflow-hidden bg-gray-100">
-              <Image
-                src="/pc2.jpg"
-                alt="PC build 2"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
           </div>
           <p className="text-1xl mb-6 text-black mt-4">
             Taking apart old hardware that my family bought was one of my favorite ways to pass time when I was younger. I think I

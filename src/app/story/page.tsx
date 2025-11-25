@@ -4,7 +4,7 @@ const Story = ()=> {
       <div className="max-w-4xl w-full px-4">
         <ul className="list-outside pl-10 space-y-4">
           <li>
-            <p className="text-black text-[60px] font-bold">Beginnings</p>
+            <p className="text-black text-[40px] font-bold">Beginnings</p>
             <p className="text-black text-[18px] text-base leading-7">
                 I was always interested in technology. My dad was a mecahnical engineer, so he would tinker with cars and small 
                 devices all around the house. I remember my first time trying it out for myself was opening up an old game console
