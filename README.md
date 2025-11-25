@@ -36,4 +36,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
+This is my nextjs supported portfoilio. It is easy to navigate and read. Elements are centered to make it easy for mobile use. This also has the effect of making it easier to read on pc as well
+it prevents the eyes from having to travel too far.
+
+Color theory was implemnted to use dark colors on the top and bottom, while the main information is framed in lighter blues and silvers
+
+Basic Layout:
+
+#home
+
+
 This is my personal portfoilo. Silvery colors are framed around 
