@@ -13,7 +13,7 @@ const RootHeader = ()=>{
     ]
 
     return <div>
-        <div className="bg-[#1c1c2d] text-white font-bold p-10 flex flex-col items-center space-y-6">
+        <div className="bg-[#1c1c2d] text-white font-bold p-6 flex flex-col items-center space-y-6">
   <h1 className="text-2xl">Jopfel Gafate</h1>
   <nav className="w-full flex justify-center space-x-6">
     {links.map(l => (
