@@ -14,8 +14,8 @@ export default function Projects() {
             PC hardware experience
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 items-stretch">
-            <div className="relative w-full h-64 rounded-md overflow-hidden bg-gray-100">
+          <div className="text-center gap-6 items-center">
+            <div className="relative w-full h-150 rounded-md overflow-hidden bg-gray-100">
               <Image
                 src="/pc1.jpg"
                 alt="PC build 1"

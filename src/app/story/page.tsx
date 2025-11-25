@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <div className="bg-[#e0e0e0] h-[500vh] w-full text-black px-4 sm:px-10 py-8 flex items-start justify-center">
+    <div className="bg-[#e0e0e0] min-h-screen w-full text-black px-4 sm:px-10 py-8 flex items-start justify-center">
       <div className="max-w-4xl w-full">
         <h2 className="text-black text-[36px] sm:text-[48px] font-bold text-center mb-10">My Story</h2>
         <ul className="list-outside space-y-10">
