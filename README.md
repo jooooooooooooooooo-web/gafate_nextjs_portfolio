@@ -48,3 +48,10 @@ Basic Layout:
 
 This is my personal portfoilo. Silvery colors are framed around dark blues for contrast and ease of view. Footer has a
 back to top function in case user needs to scroll lower
+
+Table of contents:
+#home/page.tsx - start screen, gives opening info
+#story/page.tsx - Gives detailed background on my history relating to technology
+#skills/page.tsx - Breakdown of my most relevant skills and how I have used them
+#projects/page.tsx - History of my biggest projects and how I handled them
+#contact/page.tsx - My most relevant contact info
