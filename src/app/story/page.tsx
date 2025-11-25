@@ -1,6 +1,6 @@
 const Story = ()=> {
   return (
-    <div className="bg-[#0e0e0e] h-[200vh] w-full text-white content">
+    <div className="bg-[#e0e0e0] h-[500vh] w-full flex items-center justify-center">
       <div className="max-w-4xl w-full px-4">
         <ul className="list-outside pl-10 space-y-4">
           <li>
@@ -44,7 +44,7 @@ const Story = ()=> {
             </p>
           </li>
           <li>
-            <p className="text-black text-[40px] font-bold">The Present and Beyond</p>
+            <p className="text-black text-[60px] font-bold">The Present and Beyond</p>
             <p className="text-black text-[18px] text-base leading-7">
                 I know what I want now, and I know that it is no mere pipe dream. There will always be room for technological experts,
                 the the possibilities only grow in the role of DevOps. When I was first training in IT, one of my menotrs pointed out
