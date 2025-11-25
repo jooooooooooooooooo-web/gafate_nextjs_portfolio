@@ -15,7 +15,7 @@ const RootHeader = ()=>{
     return <div>
         <div className="bg-[#1c1c2d] text-white font-bold p-6 flex flex-col items-center space-y-2">
   <h1 className="text-2xl">Jopfel Gafate</h1>
-  <nav className="w-full flex justify-center space-x-6">
+  <nav className="w-full overflow-x-auto flex justify-center space-x-6 px-2">
     {links.map(l => (
       <Link
         key={l.href}
