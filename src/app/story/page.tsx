@@ -1,6 +1,6 @@
 const Story = ()=> {
   return (
-    <div className="bg-[#e0e0e0] h-[200vh] w-full flex items-center justify-center">
+    <div className="bg-[#0e0e0e] h-[200vh] w-full text-white content">
       <div className="max-w-4xl w-full px-4">
         <ul className="list-outside pl-10 space-y-4">
           <li>

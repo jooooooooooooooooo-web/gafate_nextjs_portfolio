@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="w-full bg-[#e0e0e0] py-12">
       <div className="max-w-4xl mx-auto px-6">
-        <h1 className="text-8xl font-bold text-center text-black mb-12">Contact</h1>
+        <h1 className="text-6xl font-bold text-center text-black mb-12">Contact</h1>
         <p className="text-2xl text-center text-black">Resides in the Nevada area, capable of long-distance work for software development</p>
 
         <div className="bg-[#a8b2d1] rounded-lg shadow-sm p-8 mt-16">
