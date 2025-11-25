@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Projects() {
   return (
-    <div className="bg-[#0e0e0e] h-[200vh] w-full text-white content">
+    <div className="w-full bg-[#e0e0e0] py-12">
       <div className="max-w-4xl mx-auto px-6">
         <h1 className="text-7xl font-bold text-center text-black mb-26">Projects</h1>
 
