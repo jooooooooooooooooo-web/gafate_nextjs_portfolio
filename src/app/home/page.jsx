@@ -11,7 +11,7 @@ const HomePage = ()=>{
             height={500}
             alt="profile"
             />
-            <h2 className="text-black text-[40px] font-bold">Jopfel Basan Gafate</h2>
+            <h2 className="text-black text-[40px] font-bold">Jopfel B. Gafate</h2>
             <h2 className="text-black text-[25px] italic">"DevOps Specialist"</h2>
             <p className="max-w-[500px] w-full text-black text-center">"Why limit yourself to just one skill?" was the line one of 
                 my mentors said when I was still in high school. The role of DevOps was one that embodied this skill; not limiting
