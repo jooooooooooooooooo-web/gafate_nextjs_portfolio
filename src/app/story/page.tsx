@@ -16,7 +16,7 @@ const Story = ()=> {
             </p>
           </li>
           <li>
-            <p className="text-black text-[60px] font-bold">Logic and Creativity</p>
+            <p className="text-black text-[40px] font-bold">Logic and Creativity</p>
             <p className="text-black text-[18px] text-base leading-7">
                 There was, however, another side to my history. In grade school, I won accolades for my essays in grades 2 and 5.
                 My work with writing was praised all through high school. In my early years of college, my writing was so strong that
@@ -29,7 +29,7 @@ const Story = ()=> {
             </p>
           </li>
           <li>
-            <p className="text-black text-[60px] font-bold">The Discovery of "DevOps"</p>
+            <p className="text-black text-[40px] font-bold">The Discovery of "DevOps"</p>
             <p className="text-black text-[18px] text-base leading-7">
                 Although I wanted to combine the ability to do both physical work and development, I found that I did not have many
                 examples of it being done. It was difficult to wrap my head around doing both types of work. When I returned to school,
@@ -44,7 +44,7 @@ const Story = ()=> {
             </p>
           </li>
           <li>
-            <p className="text-black text-[60px] font-bold">The Present and Beyond</p>
+            <p className="text-black text-[40px] font-bold">The Present and Beyond</p>
             <p className="text-black text-[18px] text-base leading-7">
                 I know what I want now, and I know that it is no mere pipe dream. There will always be room for technological experts,
                 the the possibilities only grow in the role of DevOps. When I was first training in IT, one of my menotrs pointed out
